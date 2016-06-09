@@ -27,11 +27,24 @@ Specs:
 
 -If the number in the third-to-last placeholder is less than the total of the last two numbers, the program should subtract this from the total.
   -Example Input: "IVV"
-  -Example Output: "9"
+  -Example Output: "9"<br>
 
 -If the number in the third-to-last placeholder is greater than the total of the last two numbers, the program should add this to the total.
   -Example Input: "VVI"
-  -Example Output: "11 " 
+  -Example Output: "11"<br>
+
+-If the number in the fourth-to-last placeholder is greater than the total of the last three numbers, the program should add this to the total.
+  -Example Input: "VVVV"
+  -Example Output: "20"<br>
+
+-If the number in the fourth-to-last placeholder is less than the total of the last three numbers, the program should subtract this to the total.
+  -Example Input: "VVVV"
+  -Example Output: "20"<br>
+
+-If a non roman numeral is entered than the program should return the message "Please enter a single word with no spaces".
+  -Example Input: "e"
+  -example output: "Please enter a single word with no spaces"<br>
+
 
 ## Setup/Installation Requirements
 
