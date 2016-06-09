@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Web Development Template</title>
+    <title>Roman Numeral Translator</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
 
     <!-- Bootstrap core CSS -->
@@ -31,12 +31,17 @@
   <body>
     <div class="container">
       <header>
-        <h1>Epicodus Project Template</h1>
+        <h1>Roman Numeral Translator</h1>
       </header>
-      <h2>Hello World!</h2>
-      <p>
-        This is a nice little index file.  It calls in five different files to support Bootstrap, JQuery, and your custom css and js.
-      </p>
+
+      <form id="blank-numeral">
+        <div class="form-group">
+          <label for="pig">Enter a Roman numeral and translate it to numbers:</label>
+          <input id="numeral" type="text" required="">
+        </div>
+        <button id="button-submit" type="submit" class="btn">Translate</button>
+      </form>
+      <h2 id="result">Your answer is: </h2>
       <footer>
         <p>&copy; 2016 Epicodus Pair Project, Inc.</p>
       </footer>

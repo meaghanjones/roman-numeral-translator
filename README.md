@@ -8,50 +8,30 @@
 
 This repository contains the following folders and files.  They can be used to support a basic project template for the beginning of each of your projects.
 
-### css
+Specs:
+-This program should translate all the Roman numerals to numbers.
+  -Example Input: "VIXV"
+  -Example Output: "5","1","10","5" <br>
 
-This folder contains the css files that support the Bootstrap framework in parallel with files in the /js folder.  There is also a styles.css file which contains custom user scripts.
+-This program should add the number that is in the last place to the total.
+  -Example Input: "5"
+  -Example Output: "5" <br>
 
-### js
+-If the number in the second-to-last placeholder is greater than or equal to the number in the last place, the program should add this to the total.
+  -Example Input: "VI"
+  -Example Output: "6" <br>
 
-This folder contains the js files that support the Bootstrap framework in parallel with files in the /css folder.  It also contains the js files to support JQuery.  There is also a scripts.js file which contains custom user scripts.
+-If the number in the second-to-last placeholder is less than the number in the last place, the program should subtract this from the total.
+  -Example Input: "IV"
+  -Example Output: "4" <br>
 
-### fonts
+-If the number in the third-to-last placeholder is less than the total of the last two numbers, the program should subtract this from the total.
+  -Example Input: "IVV"
+  -Example Output: "9"
 
-This folder contains the files which support glyphicons in Bootstrap.
-
-### img
-
-This folder contains useful placeholder images.  There are four sizes
-
-* thumbnail
-* small
-* medium
-* large
-
-and three orientations
-
-* square
-* portrait
-* landscape
-
-for a total of 15 images.  There is also a user profile square image, since that is common, and a favicon.
-
-### index.html
-
-This file contains basic markup for a starter page.  Markup includes a header and footer within a body tag and a div container with text.  The important feature is the head tag which includes the five Bootstrap, JQuery, and custom css and js files.  
-
-### css/styles.css
-
-This is your custom css file.
-
-### js/scripts.js
-
-This is your custom js file.
-
-### README.md
-
-You're looking at it.
+-If the number in the third-to-last placeholder is greater than the total of the last two numbers, the program should add this to the total.
+  -Example Input: "VVI"
+  -Example Output: "11 " 
 
 ## Setup/Installation Requirements
 
